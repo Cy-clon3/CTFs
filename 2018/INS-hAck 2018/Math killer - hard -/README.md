@@ -11,6 +11,7 @@
 > Reminder: https://math-killer.ctf.insecurity-insa.fr/solve?a=...&b=...&c=...
 >
 > [CHALLENGE'S FILE](https://static.ctf.insecurity-insa.fr/chall.png)
+> ![](./chall.png)
 
 ## Write-up
 
