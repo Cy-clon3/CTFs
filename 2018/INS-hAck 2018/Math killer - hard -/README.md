@@ -17,7 +17,7 @@
 
 Solving the easy one first give us a hint, the easy one flag was `INSA{try_positive_solutions_now}`  
 So, we need to solve the eqation by using only positive numbers. After doing some research I found that [paper](http://ami.ektf.hu/uploads/papers/finalpdf/AMI_43_from29to41.pdf) by Bremner and MacLeod called **An unusual cubic representation problem**.
-Also, I found a `CoCalc` code implementation by Alon Amit that solving similar equation.
+Also, I found a `CoCalc` code implementation written by Alon Amit that solving a similar equation.
 
 I modified the code to be able to solve any a/(b+c)+b/(a+c)+c/(a+b)=N eqation with even N number.
 
