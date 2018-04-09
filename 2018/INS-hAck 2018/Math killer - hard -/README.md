@@ -11,6 +11,7 @@
 > Reminder: https://math-killer.ctf.insecurity-insa.fr/solve?a=...&b=...&c=...
 >
 > [CHALLENGE'S FILE](https://static.ctf.insecurity-insa.fr/chall.png)
+>
 > ![](./chall.png)
 
 ## Write-up
@@ -29,13 +30,13 @@ e=(4*(N^2)) + ((12*N)-3)
 
 f=32*(N+3)
 
-ee=EllipticCurve([0,e,0,f,0]) # Define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b)=N
+eq=EllipticCurve([0,e,0,f,0]) # Define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b)=N
 
-ee.rank()
+eq.rank()
 
-ee.gens()
+eq.gens()
 
-P=ee(-200,680) # This is a generator for the group of rational points from ee.gens() result
+P=eq(-200,680) # This is a generator for the group of rational points from ee.gens() result
 
 def orig(P,N):
     x=P[0]
