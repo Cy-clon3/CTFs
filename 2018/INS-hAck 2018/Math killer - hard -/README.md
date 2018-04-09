@@ -1,7 +1,7 @@
 # INS'hAck 2018: Math killer - hard -
 
-**Category:** MISC
-**Points:** 60
+**Category:** MISC |
+**Points:** 60 |
 **Description:**
 
 > There's another way to solve the 'Math killer - easy' challenge, if you find it you'll get another flag!
