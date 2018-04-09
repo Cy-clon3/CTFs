@@ -28,7 +28,7 @@ e=(4*(N^2)) + ((12*N)-3)
 
 f=32*(N+3)
 
-ee=EllipticCurve([0,e,0,f,0]) # Define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b=N
+ee=EllipticCurve([0,e,0,f,0]) # Define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b)=N
 
 ee.rank()
 
