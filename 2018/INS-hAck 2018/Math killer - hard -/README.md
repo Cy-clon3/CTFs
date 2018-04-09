@@ -87,4 +87,4 @@ By adding the numbers to the given [URL](https://math-killer.ctf.insecurity-insa
 }
 ```
 
-The flag is `INSA{OMG_you_actually_killed_math`
+The flag is `INSA{OMG_you_actually_killed_math}`
