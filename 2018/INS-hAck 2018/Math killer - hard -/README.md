@@ -26,9 +26,10 @@ I modified the code to be able to solve any a/(b+c)+b/(a+c)+c/(a+b)=N eqation wi
 N=6
 
 e=(4*(N^2)) + ((12*N)-3)
+
 f=32*(N+3)
 
-ee=EllipticCurve([0,e,0,f,0]) # define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b=N
+ee=EllipticCurve([0,e,0,f,0]) # Define the elliptic curve corresponding to the equation a/(b+c)+b/(a+c)+c/(a+b=N
 
 ee.rank()
 
