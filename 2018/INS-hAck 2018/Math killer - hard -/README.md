@@ -52,7 +52,7 @@ orig(P,N)
 
 m=11 # The smallest integer m such that one of the points mP + T, T ∈ Tor(EN(Q))
 
-u=orig(m*P,N) # Bremner and MacLeod noticed that 11P yields a positive solution.
+u=orig(m*P,N) # Bremner and MacLeod noticed that 11P yields a positive solution for N=6
 
 (a,b,c)=(u[0],u[1],u[2])
 
